@@ -1,0 +1,7 @@
+<!--demo1.wxml-->
+<view class="container">
+    <text>{{userInfo}}</text>
+    <view style="background-color:#fff4d2;color:#005af5;">
+        {{welcome}}
+    </view>
+</view>
