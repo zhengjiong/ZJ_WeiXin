@@ -1,0 +1,16 @@
+{
+    "tabBar": {
+        "color": "#666666",
+        "backgroundColor": "#00ff00",
+        "list": [
+            {
+                "pagePath": "../index/index",
+                "text": "首页"
+            },
+            {
+               "pagePath": "../index/index",
+                "text": "分类"
+            }
+        ]
+    }
+}

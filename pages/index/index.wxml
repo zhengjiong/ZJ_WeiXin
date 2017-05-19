@@ -5,7 +5,8 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view>
-    <button type="primary" bindtap="gotoDemo">进入demo1</button>
+    <button type="primary" bindtap="gotoDemo1">进入demo1</button>
+    <button type="primary" bindtap="gotoDemo2">进入demo2(Tabbar demo)</button>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>

@@ -12,10 +12,15 @@ Page({
       url: '../logs/logs'
     })
   },
-  gotoDemo: function(){
+  gotoDemo1: function(){
     wx.navigateTo({
         url: '../demo1/demo1',
     })
+  },
+  gotoDemo2: function(){
+      wx.navigateTo({
+          url: '../demo2-tabbar/demo2-tabbar',
+      })
   },
   onLoad: function () {
     console.log('onLoad')
