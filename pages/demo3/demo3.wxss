@@ -38,3 +38,76 @@
   /*banner是不能修改高度的,写了也没用*/
   /* height: 150rpx;*/
 }
+
+.scroll_view_container{
+  width: 100%;
+  height: 200rpx;
+  background-color: #ffe900;
+  display: flex;
+  flex-direction: row;
+}
+.scroll_view_item{
+  display: flex;
+  flex-direction: column;
+  width: 240rpx;
+}
+.scroll_view_item_img_container{
+  width: 240rpx;
+  height:150rpx;
+}
+
+.scroll_view_item_img{
+  width: 100%;
+  height:100%;
+}
+
+.scroll_view_item_title{
+  text-align: center;
+  margin: 0;
+  height: 50rpx;
+  line-height: 40rpx;
+  background-color: #48c23d;
+  font-size: 28rpx;
+}
+
+.item_list_container{
+  width: 100%;
+  height: 100%;
+}
+
+.item_container{
+  height: 240rpx;
+  display: flex;
+  flex-direction: row;
+  padding: 16rpx;
+  font-family: 微软雅黑;
+}
+.item_container image{
+  width: 320rpx;
+  height: 100%;
+}
+
+.item_right_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
+
+.item_right_subtitle_scroll_container{
+  display: flex;
+  flex-direction: row;
+}
+
+.item_right_subtitle_scroll_container .subtitle{
+  color: #ffe900;
+}
+
+.item_right_subtitle_scroll_container .score{
+  color: #bd71a1;
+}
+
+.hr{
+  width: 100%;
+  height: 2rpx;
+  background-color: #efefef;
+}
