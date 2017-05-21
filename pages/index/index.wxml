@@ -7,6 +7,7 @@
   <view>
     <button type="primary" bindtap="gotoDemo1">进入demo1</button>
     <button type="primary" bindtap="gotoDemo2">进入demo2(Tabbar demo)</button>
+    <button type="primary" bindtap="gotoDemo3">进入demo3(综合练习)</button>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>

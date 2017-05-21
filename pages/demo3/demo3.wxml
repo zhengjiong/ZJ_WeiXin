@@ -1,0 +1,26 @@
+<!--demo3.wxml-->
+<view class="demo3_container">
+
+  <!--导航-->
+  <view class="nav">
+    <!--hover-class为点击样式-->
+    <view class="nav_title" hover-class="nav_title_hover" wx:for="{{tabs}}">{{item}}</view>
+  </view>
+
+  <!--banner-->
+  <view class="banner">
+    <!--
+      indicator-dots	Boolean	false	是否显示面板指示点	
+      indicator-color	Color	rgba(0, 0, 0, .3)	指示点颜色	1.1.0
+      indicator-active-color	Color	#000000	当前选中的指示点颜色	1.1.0
+      autoplay	Boolean	false	是否自动切换
+    -->
+    <swiper indicator-dots='true' indicator-color="#8d8f8e" indicator-active-color="#48c23d" autoplay="true" interval="2000">
+      <block wx:for="{{banners}}">
+        <swiper-item>
+          <image style="width:100%;" src="{{item}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

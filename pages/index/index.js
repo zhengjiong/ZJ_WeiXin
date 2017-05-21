@@ -22,6 +22,11 @@ Page({
           url: '../demo2-tabbar/demo2-tabbar',
       })
   },
+  gotoDemo3: function(){
+    wx.navigateTo({
+      url: '/pages/demo3/demo3',
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
